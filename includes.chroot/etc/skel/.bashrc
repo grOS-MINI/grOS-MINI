@@ -37,6 +37,11 @@ alias cd..='cd ..'
 alias ..='cd ..'
 alias ....='cd ../..'
 
+# framebuffer colors
+if [ "$TERM" = "linux" ]; then
+    ~/bin/tty-colorize
+fi
+
 # apt
 alias updaterepo='sudo apt-get update'
 alias updatefixrepo='sudo apt-get update --fix-missing'
