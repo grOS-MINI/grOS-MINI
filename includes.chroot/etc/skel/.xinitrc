@@ -6,6 +6,9 @@
 # Background
 fbsetbg -f ~/.fluxbox/background/gros.png &
 
+# Battery applet (Batti)
+batti &
+
 # Auto nm-applet
 nm-applet &
 
