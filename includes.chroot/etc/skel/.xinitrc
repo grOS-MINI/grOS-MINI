@@ -6,8 +6,8 @@
 # Background
 fbsetbg -f ~/.fluxbox/background/gros.png &
 
-# Battery applet (Batti)
-batti &
+# Power Manager
+xfce4-power-manager &
 
 # Auto nm-applet
 nm-applet &
